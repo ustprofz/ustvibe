@@ -17,6 +17,7 @@
     h1{font-size:clamp(76px,12vw,124px);font-weight:750;line-height:1;letter-spacing:-6px;color:var(--purple);margin:0 0 23px}h1 span{font-weight:400;letter-spacing:-5px}
     .meaning{font-size:clamp(17px,2.5vw,24px);letter-spacing:-.4px;font-weight:500;margin:0 0 30px}.rule{width:44px;height:3px;background:#b896cc;margin:0 auto 29px;border:0}
     .tagline{font:italic 30px/1.35 Georgia,"Times New Roman",serif;letter-spacing:-.5px;color:var(--purple);margin:0 0 23px}.description{font-size:17px;line-height:1.85;color:var(--muted);max-width:640px;margin:0 auto 20px}.approach{font-size:14px;line-height:1.9;color:var(--muted);max-width:590px;margin:0 auto}
+    .project-links{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:32px}.project-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-width:152px;min-height:48px;padding:11px 24px;border:1px solid var(--purple);border-radius:6px;background:var(--purple);color:#fff;font-size:14px;font-weight:650;text-decoration:none;transition:background .15s,color .15s}.project-button:hover{background:#3d0959}.project-button.secondary{background:transparent;color:var(--purple)}.project-button.secondary:hover{background:#eee5f3}
     footer{max-width:988px;margin:0 auto;padding:26px 36px 30px;border-top:1px solid var(--line);text-align:center}.affiliations{display:flex;justify-content:center;gap:13px 28px;flex-wrap:wrap}.affiliations a{font-size:12px;font-weight:600;text-decoration:none}.affiliations a:hover{text-decoration:underline}.location{font-size:11px;color:#8d7f96;margin:14px 0 0}
     @media(min-height:850px) and (min-width:700px){main{padding-top:85px;padding-bottom:100px}}
     @media(max-width:600px){header{padding:18px 24px;flex-direction:column;gap:2px}.logo{width:208px}.opus{font-size:12px}main{padding:43px 24px 49px}.eyebrow{font-size:9px;letter-spacing:1.8px;margin-bottom:25px}h1{font-size:82px;letter-spacing:-4px}h1 span{letter-spacing:-4px}.meaning{font-size:18px;line-height:1.5;max-width:280px;margin:0 auto 26px}.tagline{font-size:26px}.description{font-size:15px;line-height:1.85}.approach{font-size:13px;line-height:1.85}footer{padding:23px 24px}.affiliations{gap:12px 21px}.affiliations a{font-size:11px}.location{font-size:10px}}
@@ -32,6 +33,10 @@
     <p class="tagline">Turn curiosity into creation.</p>
     <p class="description">An experiential learning lab at the University of St. Thomas, Opus College of Business, where students, faculty, and staff use AI, data, and business knowledge to create useful tools.</p>
     <p class="approach">Our approach reflects the <a href="https://business.stthomas.edu/about/the-opus-way/">Opus Way of Teaching</a>: learning through real questions, collaboration, and hands-on work.</p>
+    <nav class="project-links" aria-label="Explore VIBE projects">
+      <a class="project-button" href="https://vesper.ustvibe.org/">Vesper <span aria-hidden="true">&rarr;</span></a>
+      <a class="project-button secondary" href="http://showcase.ustvibe.org/">Showcase <span aria-hidden="true">&rarr;</span></a>
+    </nav>
   </main>
   <footer><nav class="affiliations" aria-label="Our university"><a href="https://www.stthomas.edu/">University of St. Thomas</a><a href="https://business.stthomas.edu/">Opus College of Business</a><a href="https://business.stthomas.edu/about/the-opus-way/">The Opus Way of Teaching</a></nav><p class="location">VIBE Lab · University of St. Thomas · Minnesota</p></footer>
 </body>
